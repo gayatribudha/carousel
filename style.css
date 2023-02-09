@@ -1,0 +1,76 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: pink;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  height: 300px;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.container > div {
+  /* opacity: 1; */
+  transition: width 1s, height 1s, opacity 1s, transform 1s;
+}
+
+.set-opacity {
+  opacity: 0.2;
+}
+
+.invisible {
+  opacity: 0.2;
+  transform: translateX(-100px);
+}
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.last-card-invisible {
+  opacity: 0.2;
+  transform: translateX(100px);
+}
+.last-card-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.small {
+  width: 150px;
+  height: 150px;
+}
+
+.medium {
+  width: 200px;
+  height: 200px;
+}
+
+.big {
+  width: 300px;
+  height: 300px;
+}
+
+.prev-next-box {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev-next-btn {
+  padding: 3px;
+  margin: 5px;
+}
+
+.anim {
+  transform: scale(3);
+}
