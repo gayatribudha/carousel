@@ -1,13 +1,22 @@
+// const images = [
+//   "images/img111.webp",
+//   "images/img222.jpg",
+//   "images/img333.jpg",
+//   "images/img444.jpg",
+//   "images/img555.jpg",
+//   "images/img777.jpg",
+//   "images/img66.webp",
+//   "images/img77.webp",
+// ];
+
 const images = [
-  "images/img.webp",
+  "images/img22.jpg",
+  "images/img1.jpg",
+  "images/img33.jpg",
   "images/img2.webp",
-  "images/img3.jpg",
-  "images/img4.jpg",
-  "images/img5.jpg",
-  "images/img6.webp",
-  "https://picsum.photos/id/23/300/300",
-  "https://picsum.photos/id/24/300/300",
-  "https://picsum.photos/id/25/300/300",
+  "images/img44.webp",
+  "images/img77.webp",
+  "images/img00.jpg",
 ];
 
 let wrapper = document.querySelector(".container");
