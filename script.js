@@ -10,4 +10,7 @@ const images = [
   "https://picsum.photos/id/25/300/300",
 ];
 
-initialize(images);
+let wrapper = document.querySelector(".container");
+let wrapper2 = document.querySelector(".container2");
+
+let carousel1 = new Carousel(images, wrapper);

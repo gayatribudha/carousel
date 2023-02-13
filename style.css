@@ -3,7 +3,7 @@ body {
   margin: 0px;
   background-color: pink;
 }
-.container {
+.carousel {
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -13,13 +13,12 @@ body {
   height: 300px;
 }
 
-.container img {
+.carousel img {
   width: 100%;
   height: 100%;
 }
 
-.container > div {
-  /* opacity: 1; */
+.carousel > div {
   transition: width 1s, height 1s, opacity 1s, transform 1s;
 }
 
@@ -32,15 +31,6 @@ body {
   transform: translateX(-100px);
 }
 .visible {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.last-card-invisible {
-  opacity: 0.2;
-  transform: translateX(100px);
-}
-.last-card-visible {
   opacity: 1;
   transform: translateX(0);
 }
@@ -71,6 +61,12 @@ body {
   margin: 5px;
 }
 
-.anim {
-  transform: scale(3);
+.prev-anime {
+  opacity: 0.2;
+  transform: translateX(100px);
+}
+
+.prev-anime-slide-in {
+  opacity: 1;
+  transform: translateX(0px);
 }
