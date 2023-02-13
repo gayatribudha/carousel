@@ -1,0 +1,24 @@
+.carousel > div {
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.prev-next-box {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.prev-next-btn {
+  padding: 5px;
+  background: white;
+  cursor: pointer;
+  background: white;
+  border: 0px;
+  color: grey;
+}
+
+.prev-next-btn:hover {
+  color: rgb(174, 85, 85);
+}

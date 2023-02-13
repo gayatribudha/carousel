@@ -37,30 +37,19 @@ body {
 .small {
   width: 150px;
   height: 150px;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .medium {
   width: 200px;
   height: 200px;
-  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .big {
   width: 300px;
   height: 300px;
-  box-shadow: 0px 6px 15px 1px rgba(0, 0, 0, 0.75);
-}
-
-.prev-next-box {
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.prev-next-btn {
-  padding: 3px;
-  margin: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .prev-anime {
