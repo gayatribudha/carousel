@@ -4,6 +4,8 @@ class Carousel {
   container = null;
 
   constructor(images, wrapper) {
+    if (images.length < 5)
+      return console.error("There must be at least five images.");
     wrapper.classList.add("carousel");
     let count = 0;
     images.forEach((each) => {
