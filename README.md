@@ -3,13 +3,8 @@
 Why make your website look boring when it can be made look really cool !!
 This is a simple yet beautifully animated horizontal carousel built from HTML, CSS and Javascript.
 
-## Demo
-
-#### Photo
-<img src="https://github.com/gayatribudha/carousel/blob/master/Sample%20Carousel.png" alt="Alt text" title="Optional title">
-
-#### Video
-https://user-images.githubusercontent.com/52325458/218689191-f25e7b52-5a8b-4d52-9215-941b1f4621b2.mp4
+<video autoplay="autoplay" muted="muted" src="https://user-images.githubusercontent.com/52325458/218689191-f25e7b52-5a8b-4d52-9215-941b1f4621b2.mp4">
+</video>
 
 
 ## Installation
