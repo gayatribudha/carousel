@@ -65,5 +65,5 @@ This is a simple yet beautifully animated horizontal carousel built from HTML, C
 
 ## Custom Style
 
-- You can give your own style to each image of carousel. Simple give styles to `.carousel > div` in css
+- You can give your own style to each image of carousel. Simply give styles to `.carousel > div` in css
   `.carousel > div { border-radius: 5px; overflow: hidden; .........}`
