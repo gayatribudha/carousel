@@ -29,6 +29,8 @@ This is a simple yet beautifully animated horizontal carousel built from HTML, C
   - For example, here I've created preview and next button and called carousel1.prev() and carousel1.next() on onclick.
     `<button onclick="carousel1.prev()">Prev</button>`
     `<button onclick="carousel1.next()">Next</button>`
+    
+#### Sample Code
 
 ```html
 <!DOCTYPE html>
