@@ -5,6 +5,13 @@ This is a simple yet beautifully animated horizontal carousel built from HTML, C
 
 ## Demo
 
+#### Photo
+<img src="https://github.com/gayatribudha/carousel/blob/master/Sample%20Carousel.png" alt="Alt text" title="Optional title">
+
+#### Video
+https://user-images.githubusercontent.com/52325458/218689191-f25e7b52-5a8b-4d52-9215-941b1f4621b2.mp4
+
+
 ## Installation
 
 - Download library.js file [https://github.com/gayatribudha/carousel/blob/master/library.js] and style.css file [https://github.com/gayatribudha/carousel/blob/master/style.css] and include them in your project directory (wherever, depending on your project structure)
